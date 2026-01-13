@@ -12,13 +12,13 @@ def hollow_right_triangle(n):
     for i in range(1, n + 1):
 
         if i == 1:
-            result = "*" + "\n"
+            result += "*" + "\n"
 
         elif i == 2:
-            result = "**" + "\n"
+            result += "**" + "\n"
 
         elif i == n: 
-            result = "*" * n + "\n"
+            result += "*" * n + "\n"
 
         else: 
             result += "*" + " " * (i - 2) + "*" + "\n"
