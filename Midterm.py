@@ -23,7 +23,7 @@ def hollow_right_triangle(n):
         else: 
             result += "*" + " " * (i - 2) + "*" + "\n"
 
-    return result 
+        return result 
 
         
     
