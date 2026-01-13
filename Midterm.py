@@ -4,7 +4,7 @@ import math
 def area_of_circle(radius):
     area_of_circle = math.pi * radius ** 2
 
-    return round(area_of_circle, 5)
+    return round(area_of_circle, 2)
 
 print(area_of_circle(5))
     
